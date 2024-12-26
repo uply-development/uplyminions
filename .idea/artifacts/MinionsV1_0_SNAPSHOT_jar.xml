@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MinionsV1.0-SNAPSHOT:jar">
+    <output-path>$PROJECT_DIR$/../Jar creations</output-path>
+    <root id="archive" name="Minions.jar">
+      <element id="module-output" name="Minions" />
+    </root>
+  </artifact>
+</component>

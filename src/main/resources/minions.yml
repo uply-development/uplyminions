@@ -1,0 +1,55 @@
+minions:
+  diamond:
+    name: "§bMinion Diamant"
+    block_platform:
+      - DIAMOND_ORE
+      - STONE
+    storage:
+      1: 64
+      2: 128
+      3: 256
+    upgrade_cost:
+      1: 0
+      2: 5000
+      3: 10000
+    mining_speed:
+      1: 100
+      2: 80
+      3: 60
+    drops:
+      DIAMOND_ORE:
+        - item: DIAMOND
+          amount: 1
+          chance: 80
+        - item: COAL
+          amount: 1
+          chance: 20
+    admin_shop: true
+    admin_shop_price: 10000
+    platform_size: 3
+
+  coal:
+    name: "§8Minion Charbon"
+    block_platform:
+      - COAL_ORE
+      - STONE
+    storage:
+      1: 128
+      2: 256
+      3: 512
+    upgrade_cost:
+      1: 0
+      2: 2500
+      3: 5000
+    mining_speed:
+      1: 60
+      2: 40
+      3: 20
+    drops:
+      COAL_ORE:
+        - item: COAL
+          amount: 1
+          chance: 100
+    admin_shop: true
+    admin_shop_price: 5000
+    platform_size: 3

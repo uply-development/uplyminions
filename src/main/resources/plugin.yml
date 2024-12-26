@@ -1,0 +1,39 @@
+name: Minions
+version: '1.0'
+main: com.uply.minions.MinionPlugin
+api-version: '1.19'
+depend: [PlaceholderAPI, Vault]
+commands:
+  minions:
+    description: Commande principale du plugin Minions
+    usage: /minions <commande>
+    aliases: [minion]
+
+permissions:
+  minions.use:
+    description: Permet d'utiliser les commandes basiques
+    default: true
+  minions.shop:
+    description: Permet d'accéder au shop
+    default: true
+  minions.hdv:
+    description: Permet d'accéder à l'hôtel des ventes
+    default: true
+  minions.admin:
+    description: Permet d'utiliser les commandes admin
+    default: op
+  minions.admin.give:
+    description: Permet de donner des minions
+    default: op
+  minions.admin.select:
+    description: Permet de sélectionner un minion
+    default: op
+  minions.admin.remove:
+    description: Permet de retirer un minion
+    default: op
+  minions.admin.tphere:
+    description: Permet de téléporter un minion
+    default: op
+  minions.admin.info:
+    description: Permet de voir les infos d'un minion
+    default: op
